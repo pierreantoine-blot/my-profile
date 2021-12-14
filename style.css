@@ -1,0 +1,51 @@
+body {
+	text-align: center;
+	background-color: #EBDFC1;
+	font-family: Arial;
+	color: #08080C;
+}
+
+h1,h2 {
+	color: #400406;
+}
+
+.présentation, .étude, .hobbies, .linkedin {
+	background-color: #FDF9ED;
+	padding: 10px 50px;
+	border-radius: 20px;
+	margin: 20px 350px;
+}
+
+.présentation img {
+	height: 175px;
+	border-radius: 10%;
+}
+
+.étude p {
+	text-align: left;
+}
+
+.linkedin img {
+	height: 50px;
+	padding: 10px;
+}
+
+.linkedin a:hover {
+	opacity: 50%;
+}
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
